@@ -18,7 +18,7 @@
 }
 
 * {
-  font-family: 'Nunito', sans-serif;
+  font-family: gotham;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -1551,7 +1551,7 @@ color: white;
   .third-image p{
     position: relative;
     font-size: 1.2rem;
-    line-height: 23px;
+    line-height: 26px;
     width: 70%;
   }
   .third-section .line-between{
@@ -1580,20 +1580,24 @@ color: white;
     align-items: center;
     justify-content: space-evenly;
   }
-  .third-content h3{
+  .third-content h1{
     font-size: 2rem;
     position: relative;
     bottom: 50px;
   }
   .third-content p{
     font-size: 1.2rem;
-    line-height: 28px;
+    line-height: 25px;
   }
   .third-content .first-holder, .second-holder{
     height: 50%;
   }
   .third-content .third-text{
     margin: 0 20px;
+  }
+  .third-text h4{
+    font-size: 1.4rem;
+    font-weight: bolder;
   }
 
 
@@ -1613,11 +1617,12 @@ color: white;
     position: absolute;
     top: 10px;
     /* bottom: 20px; */
-    width: 80%;
+    width: 82%;
     height: 20%;
     /* background-color: red; */
   }
   .section-info h1{
+    font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
   }
   .section-info p{
@@ -1664,7 +1669,7 @@ color: white;
   }
   .about-section .about-container{
     width: 7%;
-    right: 80px;
+    right: 85px;
     height: 70%;
     bottom: 100px;
   }
@@ -1683,6 +1688,9 @@ color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .about-container h4{
+    font-size: 1.8rem;
   }
   .about-container p{
     font-size: 1.2rem;
@@ -1779,6 +1787,10 @@ color: white;
   /* footer styling ends */
 }
 
+
+
+
+
 @media (max-width: 650px) {
   .links-navbar .logo a h1{
     font-size: 25px;
@@ -1818,8 +1830,8 @@ color: white;
     font-size: 2rem;
   }
   .third-image p{
-    font-size: .8rem;
-    line-height: 20px;
+    font-size: .9rem;
+    line-height: 22px;
     bottom: 70px;
   }
   .third-section .line-between{
@@ -1844,8 +1856,8 @@ color: white;
     color: var(--seaweed);
   }
   .third-content p{
-    font-size: .8rem;
-    line-height: 20px;
+    font-size: .9rem;
+    line-height: 22px;
   }
   .third-content .first-holder, .second-holder{
     width: 100%;
@@ -1855,7 +1867,7 @@ color: white;
   /* about section styling begins */
   .second-section{
     /* background-color: yellow; */
-    height: 115vh;
+    height: 113vh;
   }
   .section-info{
     top: 10px;
@@ -1866,8 +1878,8 @@ color: white;
     font-size: 1.8rem;
   }
   .section-info p{
-    font-size: .8rem;
-    line-height: 20px;
+    font-size: .9rem;
+    line-height: 22px;
     bottom: 70px;
   }
   .second-section .manual-navigation{
@@ -1894,8 +1906,8 @@ color: white;
     
   }
   .about-container p{
-    font-size: .8rem;
-    line-height: 20px;
+    font-size: .9rem;
+    line-height: 22px;
   }
   /* about section styling ends */
 
@@ -1977,7 +1989,7 @@ color: white;
 
 
 
-@media (max-width: 570px)  {
+@media (max-width: 500px)  {
 
   .img-slider .navigation .btn {
     background: rgba(0, 0, 0, 0.5);
@@ -2025,16 +2037,19 @@ color: white;
 
   /* third section styling starts */
   .main-section{
-    height: 150vh;
+    height: 160vh;
+    /* background-color: red; */
   }
   .third-section .third-image{
     /* background: blue; */
     height: 28%;
   }
   .third-section .third-image h1{
+    position: relative;
     font-size: 1.8rem;
     line-height: 30px;
-    bottom: 220px;
+    bottom: -900px;
+    /* color: red; */
   }
   .third-image p{
     font-size: .8rem;
@@ -2053,7 +2068,7 @@ color: white;
   }
   .third-content{
     /* background: royalblue; */
-    height: 50%;
+    height: 55%;
   }
   .third-content h1{
     font-size: 1.3rem;
@@ -2066,8 +2081,8 @@ color: white;
     top: 0px;
   }
   .third-content p{
-    font-size: .7rem;
-    line-height: 17px;
+    font-size: .8rem;
+    line-height: 19px;
     width: 100%;
   }
   .third-content .first-holder, .second-holder{
@@ -2080,8 +2095,63 @@ color: white;
 }
 
 
+.second-section{
+
+}
+.section-info p{
+  font-size: .8rem;
+  line-height: 20px;
+}
+.about-section .about-container{
+  right: 1.5%;
+}
+.about-section .about-container p{
+  font-size: .8rem;
+  line-height: 20px;
+}
+
+.about-section .about-container h4{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
 
 
-@media (max-width: 300px){
 
+@media (max-width: 350px){
+  .header{
+    height: 35%;
+  }
+  .third-section .third-image h1{
+    font-size: 1.5rem;
+  }
+  .third-image p{
+    font-size: .67rem;
+    line-height: 18px;
+  }
+  .third-content h4{
+    font-size: .8rem;
+  }
+  .third-content p{
+    font-size: .65rem;
+    line-height: 16px;
+    width: 100%;
+  }
+
+  .section-info h1{
+    font-size: 1.3rem;
+  }
+  .section-info p{
+    font-size: .65rem;
+    line-height: 16px;
+  }
+  .second-section .section-info{
+    height: 22%;
+  }
+  .about-section .about-container h4{
+    font-size: 1.1rem;
+  }
+  .about-section .about-container p{
+    font-size: .65rem;
+    line-height: 16px;
+  }
 }
