@@ -1406,7 +1406,7 @@ color: white;
     border-radius: 30px;
     border: 2px solid var(--seafoam);
   }
-  .angle i{
+  .angle div i{
     color: var(--seafoam);
     font-size: 20px;
   }
@@ -2038,6 +2038,10 @@ color: white;
 
 
 @media (max-width: 500px)  {
+  .angle div i{
+    color: var(--seafoam);
+    font-size: 20px;
+  }
 
   .img-slider .navigation .btn {
     background: rgba(0, 0, 0, 0.5);
@@ -2166,6 +2170,10 @@ color: white;
 
 
 @media (max-width: 350px){
+  .angle div i{
+    color: var(--seafoam);
+    font-size: 20px;
+  }
   .header{
     height: 35%;
   }
