@@ -1363,6 +1363,46 @@ color: white;
 
 
 @media (max-width: 768px) {
+
+  .angle{
+    /* visibility: hidden; */
+    z-index: 999;
+    position: fixed;
+    top: 30vh;
+    /* right: 200px; */
+    margin-top: 50vh;
+    margin-left: 110vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background: rgba(0, 0, 0, 0.589);
+    border-radius: 30px;
+    border: 2px solid var(--seafoam);
+    transition: 3s ease;
+  }
+  
+  .angle img{
+    width: 70px;
+  }
+  .show-link{
+    visibility: visible;
+    z-index: 999;
+    position: fixed;
+    top: 30vh;
+    margin-top: 50vh;
+    margin-left: 83vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background: rgba(0, 0, 0, 0.589);
+    border-radius: 30px;
+    border: 2px solid var(--seafoam);
+  }
+
   /* navbar styling  for mobile start*/
   .search-input {
     position: relative;
