@@ -981,6 +981,10 @@ body {
   border-radius: 30px;
   border: 2px solid var(--seafoam);
 }
+.angle i{
+  color: var(--seafoam);
+  font-size: 20px;
+}
 /* scroll up styling ends */
 
 
@@ -1391,7 +1395,7 @@ color: white;
     z-index: 999;
     position: fixed;
     top: 30vh;
-    margin-top: 45vh;
+    margin-top: 50vh;
     margin-left: 83vw;
     display: flex;
     align-items: center;
