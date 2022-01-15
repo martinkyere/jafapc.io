@@ -1406,6 +1406,10 @@ color: white;
     border-radius: 30px;
     border: 2px solid var(--seafoam);
   }
+  .angle i{
+    color: var(--seafoam);
+    font-size: 20px;
+  }
 
   /* navbar styling  for mobile start*/
   .search-input {
